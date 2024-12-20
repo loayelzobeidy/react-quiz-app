@@ -1,4 +1,5 @@
 import img from "../assets/images/quiz-logo.png";
+import {HomeIcon, BookOpenIcon,PhoneIcon,DesktopComputerIcon} from '@heroicons/react/solid'
 import { useState } from "react";
 console.log("imgage", img);
 
@@ -23,31 +24,35 @@ export function Header() {
   </div>
   
   <div className="flex items-center">
-    <a
-      href="#"
-      className="text-purple-600 hover:text-purple-300 transition-all duration-300 text-lg font-medium mr-6"
-    >
-      Home
-    </a>
-    <a
-      href="#"
-      className="text-purple-600 hover:text-purple-300 transition-all duration-300 text-lg font-medium mr-6"
-    >
-      About
-    </a>
-    <a
-      href="#"
-      className="text-purple-600 hover:text-purple-300 transition-all duration-300 text-lg font-medium mr-6"
-    >
-      Services
-    </a>
-    <a
-      href="#"
-      className="text-purple-600 hover:text-purple-300 transition-all duration-300 text-lg font-medium"
-    >
-      Contact
-    </a>
-  </div>
+  <a
+    href="#"
+    className="text-purple-600 hover:text-purple-300 transition-all duration-300 text-lg font-medium mr-6"
+  >
+    <HomeIcon className="w-10 h-10 mr-2" />
+    Home
+  </a>
+  <a
+    href="#"
+    className="text-purple-600 hover:text-purple-300 transition-all duration-300 text-lg font-medium mr-6"
+  >
+    <BookOpenIcon className="w-10 h-10 mr-2" />
+    About
+  </a>
+  <a
+    href="#"
+    className="text-purple-600 hover:text-purple-300 transition-all duration-300 text-lg font-medium mr-6"
+  >
+    <DesktopComputerIcon className="w-10 h-10 mr-2" />
+    Services
+  </a>
+  <a
+    href="#"
+    className="text-purple-600 hover:text-purple-300 transition-all duration-300 text-lg font-medium"
+  >
+    <PhoneIcon className="w-10 h-10 mr-2" />
+    Contact
+  </a>
+</div>
 </div>
   );
 }

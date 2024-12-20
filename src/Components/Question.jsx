@@ -8,7 +8,7 @@ export default function Question({Questiontext,answers,onSelectAnswer,onSkipAnsw
     timeout={10}
     onTimeout={onSkipAnswer}
   />
-  <p className="text-center text-lg font-bold mb-4">
+  <p className="text-center font-bold mb-4 font-playwriteMX">
     {Questiontext}
   </p>
   <Answers

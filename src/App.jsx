@@ -3,6 +3,8 @@ import './index.css'
 import { SideBar } from "./layout/SideBar";
 import { Footer } from "./layout/Footer";
 import {MainQuiz} from "./Components/MainQuiz"
+
+
 function App() {
     return(
         <>

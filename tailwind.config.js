@@ -16,6 +16,9 @@ module.exports = {
           },
         },
       },
+      fontFamily: {
+        playwriteMX: ['"Playwrite MX Guides"', 'sans-serif'], // Replace 'YourCustomFont' with your font name
+      },
     },
   },
   plugins: [],
